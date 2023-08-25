@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Karla;
+  src: url("../fonts/Karla/static/Karla-Regular.ttf");
+}
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* !General Styles */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 2.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+/* !Header Style */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.5rem;
+  padding: 2.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+/* !Card Style */
+
+/* !Grid Style */
+
+/* !Footer Style */
