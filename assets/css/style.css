@@ -40,6 +40,7 @@ header {
   align-items: center;
   height: 6.5rem;
   padding: 2.5rem;
+  font-size: 1rem;
 }
 
 ul {
@@ -48,7 +49,33 @@ ul {
   gap: 3rem;
 }
 
+h2,
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+p {
+  color: #848484;
+}
+
 /* !Card Style */
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  height: 2.75rem;
+  padding: 1.25rem 0;
+}
+
+.hover {
+  display: none;
+}
 
 /* !Grid Style */
 
