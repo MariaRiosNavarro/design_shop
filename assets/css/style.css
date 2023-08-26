@@ -79,8 +79,10 @@ img {
   max-width: 100%;
 }
 
-.hover {
-  display: none;
+/* ! ---------- Hover Effekt ---------- */
+
+.product-img:hover {
+  opacity: 0.5;
 }
 
 /* ! ---------- Grid Style ---------- */
