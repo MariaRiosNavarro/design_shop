@@ -1,6 +1,6 @@
 @font-face {
   font-family: Karla;
-  src: url("../fonts/Karla/static/Karla-Regular.ttf");
+  src: url("../fonts/Karla/Karla-VariableFont_wght.ttf");
 }
 
 *,
@@ -28,19 +28,26 @@ h1 {
   font-size: 2rem;
 }
 
-h2 {
-  font-size: 1rem;
+h2,
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+.product-brand {
+  color: #848484;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
   color: #000;
-}
-
-p {
-  font-size: 1rem;
-  color: #848484;
 }
 
 /* ! ---------- Header Style ---------- */
@@ -69,8 +76,7 @@ ul {
 .description {
   display: flex;
   justify-content: space-between;
-  height: 2.75rem;
-  margin: 1.25rem 0;
+  margin: 2rem 0;
   width: 100%;
 }
 
@@ -95,6 +101,7 @@ img {
   justify-content: center;
   align-items: start;
   padding: 0 2.5rem;
+  margin-bottom: 6rem;
 }
 
 .card {

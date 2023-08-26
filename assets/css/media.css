@@ -10,8 +10,22 @@
 }
 
 @media (max-width: 576px) {
+  /* --- grid --- */
   .shop {
     grid-template-columns: 1fr;
+  }
+
+  /* --- font --- */
+  h2,
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /* --- header --- */
+  ul {
+    flex-direction: column;
+    gap: 1rem;
   }
 
   /* - --- große bilder --- */
@@ -55,12 +69,5 @@
 
   footer a {
     padding: 0.5rem 0;
-  }
-
-  /* --- header --- */
-
-  ul {
-    flex-direction: column;
-    gap: 1rem;
   }
 }
